@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/blog-tecnologia/static/css/main.d0d6d574.css",
-    "main.js": "/blog-tecnologia/static/js/main.a8fddbb3.js",
+    "main.js": "/blog-tecnologia/static/js/main.7469a5df.js",
     "static/js/453.274c07cb.chunk.js": "/blog-tecnologia/static/js/453.274c07cb.chunk.js",
     "index.html": "/blog-tecnologia/index.html",
     "main.d0d6d574.css.map": "/blog-tecnologia/static/css/main.d0d6d574.css.map",
-    "main.a8fddbb3.js.map": "/blog-tecnologia/static/js/main.a8fddbb3.js.map",
+    "main.7469a5df.js.map": "/blog-tecnologia/static/js/main.7469a5df.js.map",
     "453.274c07cb.chunk.js.map": "/blog-tecnologia/static/js/453.274c07cb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d0d6d574.css",
-    "static/js/main.a8fddbb3.js"
+    "static/js/main.7469a5df.js"
   ]
 }
