@@ -1,0 +1,102 @@
+.events {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.events-header {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.events-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.event-card {
+  display: flex;
+  background: white;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.event-card:hover {
+  transform: translateY(-5px);
+}
+
+.event-date {
+  background: #0066cc;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  min-width: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.day {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.month {
+  text-transform: uppercase;
+}
+
+.event-details {
+  padding: 1.5rem;
+  flex: 1;
+}
+
+.event-type {
+  color: #666;
+  margin-bottom: 1rem;
+}
+
+.register-btn, .watch-btn {
+  padding: 0.8rem 1.5rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 500;
+  margin-top: 1rem;
+  transition: background-color 0.3s;
+}
+
+.register-btn {
+  background: #0066cc;
+  color: white;
+}
+
+.watch-btn {
+  background: #f0f0f0;
+  color: #333;
+}
+
+.register-btn:hover {
+  background: #0052a3;
+}
+
+.watch-btn:hover {
+  background: #e0e0e0;
+}
+
+.past {
+  opacity: 0.8;
+}
+
+@media (max-width: 768px) {
+  .event-card {
+    flex-direction: column;
+  }
+
+  .event-date {
+    padding: 0.5rem;
+  }
+}
