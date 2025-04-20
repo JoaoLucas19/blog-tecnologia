@@ -14,15 +14,15 @@ function Navbar() {
         <span className="hamburger"></span>
       </button>
       <ul className={`navbar-menu ${isOpen ? 'active' : ''}`}>
-        <li><Link to="/" onClick={() => setIsOpen(false)}>Home</Link></li>
+        <li><Link to="/" onClick={() => setIsOpen(false)}>Início</Link></li>
         <li><Link to="/blog" onClick={() => setIsOpen(false)}>Blog</Link></li>
-        <li><Link to="/resources" onClick={() => setIsOpen(false)}>Resources</Link></li>
-        <li><Link to="/documentation" onClick={() => setIsOpen(false)}>Docs</Link></li>
-        <li><Link to="/projects" onClick={() => setIsOpen(false)}>Projects</Link></li>
-        <li><Link to="/events" onClick={() => setIsOpen(false)}>Events</Link></li>
-        <li><Link to="/career" onClick={() => setIsOpen(false)}>Careers</Link></li>
-        <li><Link to="/community" onClick={() => setIsOpen(false)}>Community</Link></li>
-        <li><Link to="/about" onClick={() => setIsOpen(false)}>About</Link></li>
+        <li><Link to="/resources" onClick={() => setIsOpen(false)}>Recursos</Link></li>
+        <li><Link to="/documentation" onClick={() => setIsOpen(false)}>Documentos</Link></li>
+        <li><Link to="/projects" onClick={() => setIsOpen(false)}>Projetos</Link></li>
+        <li><Link to="/events" onClick={() => setIsOpen(false)}>Eventos</Link></li>
+        <li><Link to="/career" onClick={() => setIsOpen(false)}>Carreira</Link></li>
+        <li><Link to="/community" onClick={() => setIsOpen(false)}>Comunidade</Link></li>
+        <li><Link to="/about" onClick={() => setIsOpen(false)}>Sobre</Link></li>
       </ul>
     </nav>
   );
