@@ -8,7 +8,7 @@ function Navbar() {
   return (
     <nav className="navbar">
       <div className="navbar-brand">
-        <Link to="/">Tech & AI Blog</Link>
+        <Link to="/">TechMind AI</Link>
       </div>
       <button className="navbar-toggle" onClick={() => setIsOpen(!isOpen)}>
         <span className="hamburger"></span>
